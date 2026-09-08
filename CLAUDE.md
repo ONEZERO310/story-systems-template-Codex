@@ -1,1 +1,0 @@
-.wtfb/ai-harness/AGENTS.md
