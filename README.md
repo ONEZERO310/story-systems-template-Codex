@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-Full_Support-blueviolet?style=flat-square&logo=anthropic" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Codex_CLI-Full_Support-blueviolet?style=flat-square&logo=openai" alt="Codex">
   <img src="https://img.shields.io/badge/Gemini_CLI-Full_Support-orange?style=flat-square&logo=google" alt="Gemini CLI">
 </p>
 
@@ -50,7 +50,7 @@ Instead of asking one AI to do everything, we created a system where multiple AI
 
 ## The Problem
 
-When you ask ChatGPT or Claude to help write a screenplay, you get... fine results. But here's what's missing:
+When you ask ChatGPT or Codex to help write a screenplay, you get... fine results. But here's what's missing:
 
 - **No structure** — It doesn't know when to check formatting vs. when to focus on story
 - **No specialization** — It's a generalist pretending to be an expert
@@ -123,7 +123,7 @@ We're not locked to one AI:
 
 | Platform | Status | Harness |
 |----------|--------|---------|
-| ![Claude Code](https://img.shields.io/badge/Claude_Code-Anthropic-blueviolet?style=flat-square&logo=anthropic) | ✅ Full support | `.claude/` |
+| ![Codex](https://img.shields.io/badge/Codex_CLI-OpenAI-blueviolet?style=flat-square&logo=openai) | ✅ Full support | `codex/` |
 | ![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-Google-orange?style=flat-square&logo=google) | ✅ Full support | `.gemini/` |
 | **OpenAI Codex** | 📄 Documented | `.openai/` |
 
@@ -146,7 +146,7 @@ Your AI team writes Fountain files. **BetterFountain** shows you the results.
 | **PDF Export** | Industry-standard output with scene bookmarks |
 
 ```
-Claude Agents ──write──> .fountain file ──view──> BetterFountain
+Codex Agents ──write──> .fountain file ──view──> BetterFountain
      ↑                                                    │
      └────────────────── iterate ─────────────────────────┘
 ```
@@ -168,7 +168,7 @@ Claude Agents ──write──> .fountain file ──view──> BetterFountain
 
 **Full instructions:** [docs/QUICKSTART.md](docs/QUICKSTART.md) - Platform-specific prerequisites, troubleshooting, and step-by-step guide.
 
-**New to Claude?** [Get Claude Code](https://claude.com/pricing) - Required for the AI team features.
+**New to Codex?** [Get Codex](https://codex.com/pricing) - Required for the AI team features.
 
 **Required extension:** [BetterFountain](https://github.com/piersdeseilligny/betterfountain) - Install in VS Code/Cursor to preview and navigate your screenplay. See [above](#see-what-your-ai-team-creates) for details.
 
@@ -186,19 +186,19 @@ cd my-screenplay
 # 3. Install dependencies
 npm install
 
-# 4. Start Claude Code and start writing!
-claude
+# 4. Start Codex and start writing!
+codex
 /start-scene Opening confrontation in the bar
 ```
 
 Your AI team is now active. All 11 agents, 24 skills, and 30 commands work out of the box. The Story Architect ensures structure. The Dialogue Writer refines voices. The Script Supervisor catches formatting issues. They work together automatically.
 
-**Extensible by design.** Story Systems supports Claude Code's native `/plugin` workflow. Install from any supported source—GitHub repos, community marketplaces, or local paths.
+**Extensible by design.** Story Systems supports Codex's native `/plugin` workflow. Install from any supported source—GitHub repos, community marketplaces, or local paths.
 
 - **Community plugins** — Open-source extensions from the broader ecosystem
 - **Company spokes** — Premium workflows from sources like WTFB *(coming soon)*
 
-When installing plugins, Claude Code uses a permission prompt model—review prompts when plugins request actions. See [Claude Code Plugins](https://claude.com/blog/claude-code-plugins) for installation details and marketplace examples.
+When installing plugins, Codex uses a permission prompt model—review prompts when plugins request actions. See the official Codex plugin documentation for installation details and marketplace examples.
 
 ---
 
@@ -269,7 +269,7 @@ The same pattern works for any field that needs expert collaboration:
 | Scene Writer | Backend Developer | Compliance Officer | Biostatistician |
 | Script Supervisor | QA Tester | Research Associate | Ethics Liaison |
 
-We've already built a [software development harness](https://github.com/bybren-llc/cheddarfox-claude-marketplace/tree/main/plugins/software-dev). The architecture is universal.
+We've already built a [software development harness](https://github.com/bybren-llc/cheddarfox-codex-marketplace/tree/main/plugins/software-dev). The architecture is universal.
 
 ---
 
@@ -320,7 +320,7 @@ Anyone can extend Story Systems. The architecture is open.
 
 1. Follow the same capability contract
 2. Add premium features (enhanced skills, workflows)
-3. Submit to the [Plugin Marketplace](https://github.com/bybren-llc/cheddarfox-claude-marketplace)
+3. Submit to the [Plugin Marketplace](https://github.com/bybren-llc/cheddarfox-codex-marketplace)
 4. Earn revenue from your expertise
 
 ### Example Company Plugins: WTFB

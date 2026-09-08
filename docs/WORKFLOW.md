@@ -168,5 +168,5 @@ See `AGENTS.md` for the complete 11-agent team reference:
 
 - `CONTRIBUTING.md` - Contribution guidelines
 - `AGENTS.md` - Agent team reference
-- `CLAUDE.md` - Claude Code instructions
+- `AGENTS.md` - Codex instructions
 - `GEMINI.md` - Gemini CLI instructions

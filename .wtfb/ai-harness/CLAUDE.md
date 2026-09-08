@@ -1,8 +1,8 @@
-# CLAUDE.md
+# AGENTS.md
 
 > **Words To Film By™** harness by J. Scott Graham ([@cheddarfox](https://github.com/cheddarfox)) / [Bybren LLC](https://github.com/bybren-llc)
 
-This file provides guidance to Claude Code when working with this WTFB creative project.
+This file provides guidance to Codex when working with this WTFB creative project.
 
 ## Project Overview
 
@@ -22,10 +22,10 @@ Writers don't need to learn CLI commands. **Agents handle all tooling via `@wtfb
 The CLI is infrastructure for agents, not interface for humans.
 
 ### Harness Location
-- **Agents**: `.claude/agents/` - 11 specialized agent profiles
-- **Commands**: `.claude/commands/` - Slash command definitions
-- **Skills**: `.claude/skills/` - Knowledge base modules
-- **Hooks**: `.claude/hooks/` - Hook configurations
+- **Agents**: `codex/agents/` - 11 specialized agent profiles
+- **Commands**: `codex/commands/` - Slash command definitions
+- **Skills**: `codex/skills/` - Knowledge base modules
+- **Hooks**: `codex/hooks/` - Hook configurations
 
 ### Agent Invocation
 ```
@@ -253,10 +253,10 @@ For enhanced workflows (showrunner mode, advanced methodology), you can optional
 
 ```bash
 # Screenplay projects
-/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
+/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
 
 # Novel projects (when available)
-/plugin install wtfb-novel-writing@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/novel-writing
+/plugin install wtfb-novel-writing@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/novel-writing
 ```
 
 ---

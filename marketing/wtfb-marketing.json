@@ -15,7 +15,7 @@
   "metadata": {
     "genres": ["Development Tools", "Creative Writing", "AI"],
     "themes": ["Multi-AI", "Screenwriting", "Novel Writing", "Film Production"],
-    "keywords": ["claude", "gemini", "codex", "screenplay", "fountain", "ai-harness", "template"],
+    "keywords": ["codex", "gemini", "codex", "screenplay", "fountain", "ai-harness", "template"],
     "runtime": null,
     "rating": null,
     "language": "English",
@@ -50,7 +50,7 @@
     "tagline": "Your creative AI team, ready to work",
     "oneSheet": {
       "headline": "Multi-AI Harness for Creative Projects",
-      "synopsis": "A comprehensive template featuring 11 specialized agents, 30+ commands, and 17 patterns for screenplay, novel, and film production development. Supports Claude Code, Gemini CLI, and OpenAI Codex.",
+      "synopsis": "A comprehensive template featuring 11 specialized agents, 30+ commands, and 17 patterns for screenplay, novel, and film production development. Supports Codex, Gemini CLI, and OpenAI Codex.",
       "callToAction": "Get Started"
     },
     "assets": {

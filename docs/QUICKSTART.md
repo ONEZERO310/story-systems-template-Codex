@@ -35,11 +35,11 @@ brew install git node
 # Install GitHub CLI (optional - only needed for one-command repo creation)
 brew install gh
 
-# Install Claude Code
-npm install -g @anthropic-ai/claude-code
+# Install Codex
+# Install Codex CLI using the current official OpenAI instructions.
 
-# Authenticate Claude Code
-claude auth
+# Authenticate Codex
+codex auth
 ```
 
 **Verify installation:**
@@ -49,7 +49,7 @@ claude auth
 | Git | `git --version` |
 | Node.js 18+ | `node --version` |
 | npm | `npm --version` |
-| Claude Code | `claude --version` |
+| Codex | `codex --version` |
 | GitHub CLI (optional) | `gh --version` |
 
 ---
@@ -67,11 +67,11 @@ sudo apt install git nodejs npm
 sudo apt install gh
 # or: sudo snap install gh
 
-# Install Claude Code
-npm install -g @anthropic-ai/claude-code
+# Install Codex
+# Install Codex CLI using the current official OpenAI instructions.
 
-# Authenticate Claude Code
-claude auth
+# Authenticate Codex
+codex auth
 ```
 
 **For other distributions:**
@@ -120,11 +120,11 @@ winget install OpenJS.NodeJS.LTS
 # Install GitHub CLI (optional)
 winget install GitHub.cli
 
-# Restart terminal, then install Claude Code
-npm install -g @anthropic-ai/claude-code
+# Restart terminal, then install Codex
+# Install Codex CLI using the current official OpenAI instructions.
 
-# Authenticate Claude Code
-claude auth
+# Authenticate Codex
+codex auth
 ```
 
 **Option B: Manual download**
@@ -139,7 +139,7 @@ claude auth
 git --version
 node --version
 npm --version
-claude --version
+codex --version
 ```
 
 ---
@@ -186,10 +186,10 @@ code .
 # or: cursor .
 ```
 
-**Step 5: Start Claude Code**
+**Step 5: Start Codex**
 
 ```bash
-claude
+codex
 ```
 
 **Step 6: Start writing!**
@@ -205,7 +205,7 @@ Your AI team is ready. All 11 agents, 24 skills, and 30 commands work out of the
 For enhanced workflows (showrunner mode, advanced methodology), you can install plugins:
 
 ```
-/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
+/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
 ```
 
 ---
@@ -261,10 +261,10 @@ code .
 # or: cursor .
 ```
 
-**Step 5: Start Claude Code**
+**Step 5: Start Codex**
 
 ```powershell
-claude
+codex
 ```
 
 **Step 6: Start writing!**
@@ -280,7 +280,7 @@ Your AI team is ready. All 11 agents, 24 skills, and 30 commands work out of the
 For enhanced workflows (showrunner mode, advanced methodology), you can install plugins:
 
 ```
-/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
+/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
 ```
 
 ---
@@ -298,7 +298,7 @@ When you run the init script, you'll see:
 **Project structure:**
 ```
 {your-project}/
-├── .claude/           # AI agent configurations
+├── codex/           # AI agent configurations
 ├── .wtfb/             # Project settings
 ├── docs/              # Documentation
 ├── exports/           # Output files (PDF, FDX, HTML)
@@ -308,7 +308,7 @@ When you run the init script, you'll see:
 ├── sourcematerials/   # Research & references
 ├── templates/         # Beat sheets, character sheets
 ├── AGENTS.md          # AI team reference
-├── CLAUDE.md          # AI instructions
+├── AGENTS.md          # AI instructions
 ├── package.json       # Dependencies
 └── README.md          # Project info
 ```
@@ -338,7 +338,7 @@ When you run the init script, you'll see:
 
 **Plugin install fails**
 ```bash
-npm update -g @anthropic-ai/claude-code
+# Update Codex CLI using the current official OpenAI instructions.
 ```
 
 ### macOS / Linux / WSL
@@ -361,7 +361,7 @@ chmod +x scripts/init-project.sh
 PowerShell -ExecutionPolicy Bypass -File .\scripts\init-project.ps1
 ```
 
-**"CLAUDE.md created as copy" message**
+**"AGENTS.md created as copy" message**
 - Normal on Windows without Developer Mode
 - To enable symlinks: Settings > Developer settings > Developer Mode: On
 - The copy works identically; symlinks are just a minor convenience

@@ -295,6 +295,6 @@ If two plugins extend/replace the same hub `wtfbId`:
 
 ## Reference
 
-- [Claude Code Plugin Overview](https://deepwiki.com/anthropics/claude-plugins-official/1-overview)
+- [Codex Plugin Overview](https://deepwiki.com/anthropics/codex-plugins-official/1-overview)
 - [WTFB User Access Tiers](./USER_ACCESS_TIERS.md)
 - [WTFB Plugin Architecture](./PLUGIN_ARCHITECTURE.md)

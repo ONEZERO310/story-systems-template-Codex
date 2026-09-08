@@ -1,1 +1,1 @@
-.wtfb/ai-harness/CLAUDE.md
+.wtfb/ai-harness/AGENTS.md

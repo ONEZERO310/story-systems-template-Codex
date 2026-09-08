@@ -109,7 +109,7 @@ Trelby
 comedically
 Vogler
 
-# Claude Code terms
+# Codex terms
 frontmatter
 agentskills
 

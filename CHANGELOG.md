@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Updated README title, marketing config, Jekyll config
   - Updated all user-facing documentation references
   - Updated sync scripts and template relationship docs
-- **Repository references**: Updated marketplace name to `cheddarfox-claude-marketplace`
+- **Repository references**: Updated marketplace name to `cheddarfox-codex-marketplace`
 - **License badge**: Moved to first position in README
 
 ### Fixed
@@ -47,7 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Multi-marketplace coexistence guide in PLUGIN_ARCHITECTURE.md
   - Hub vs spoke contribution rules in CONTRIBUTING.md
 
-- **Claude Code Installation Instructions**
+- **Codex Installation Instructions**
   - Added to QUICKSTART.md prerequisites
   - Added to README.md Quick Start section
 
@@ -55,7 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - **validate.yml**: Added `validate-capabilities` job
 - **PR Template**: Added skill/command compliance checklist
-- **CLAUDE.md**: Added CI/CD section with validation commands
+- **AGENTS.md**: Added CI/CD section with validation commands
 - **AGENTS.md**: Added Agent Contributions to CI section
 - **CONTRIBUTING.md**: Added PR title format and capability validation docs
 - **package.json**: Updated validate script to include capability check
@@ -108,7 +108,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Creator, organization, and enterprise credits
   - Link to NOTICE file for requirements
 
-- **CLAUDE.md**: Added attribution header
+- **AGENTS.md**: Added attribution header
 
 - **marketing/wtfb-marketing.json**: Full creator details
   - Primary creator with GitHub and website links
@@ -141,7 +141,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - All 24 skills now include `wtfbId: wtfb:{name}` metadata for registry identity
-- `.claude/README.md` updated with namespace conventions and capability identification
+- `codex/README.md` updated with namespace conventions and capability identification
 - `README.md` updated with:
   - Hub-spoke architecture documentation
   - Plugin creation guide (free and paid)

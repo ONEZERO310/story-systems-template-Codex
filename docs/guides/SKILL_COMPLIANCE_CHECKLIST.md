@@ -1,6 +1,6 @@
 # Skill & Command Compliance Checklist
 
-Quick validation checklist for Claude Code skills and commands before commit.
+Quick validation checklist for Codex skills and commands before commit.
 
 ---
 
@@ -85,14 +85,14 @@ description: Brief description of what this command does.
 
 ```bash
 # Validate all skills have frontmatter
-for skill in .claude/skills/*/SKILL.md; do
+for skill in codex/skills/*/SKILL.md; do
   if ! head -1 "$skill" | grep -q "^---"; then
     echo "MISSING FRONTMATTER: $skill"
   fi
 done
 
 # Check skill name matches directory
-for skill in .claude/skills/*/SKILL.md; do
+for skill in codex/skills/*/SKILL.md; do
   dir=$(dirname "$skill" | xargs basename)
   name=$(grep "^name:" "$skill" | cut -d: -f2 | tr -d ' ')
   [ "$dir" = "$name" ] || echo "MISMATCH: $skill (dir=$dir, name=$name)"
@@ -119,9 +119,9 @@ npm run lint:md && npm run lint:spell
 ## References
 
 - [Agent Skills Specification](https://agentskills.io/specification)
-- [Claude Code Slash Commands](https://code.claude.com/docs/en/slash-commands)
+- [Codex Slash Commands](https://code.codex.com/docs/en/slash-commands)
 - [SKILL_AUTHORING_GUIDE.md](https://github.com/bybren-llc/safe-agentic-workflow/blob/main/docs/guides/SKILL_AUTHORING_GUIDE.md)
 
 ---
 
-*Part of the [WTFB Screenwriting Plugin](https://github.com/bybren-llc/cheddarfox-claude-marketplace) ecosystem.*
+*Part of the [WTFB Screenwriting Plugin](https://github.com/bybren-llc/cheddarfox-codex-marketplace) ecosystem.*

@@ -171,7 +171,7 @@ The validation script (`npm run validate:capabilities`) enforces standards that 
 
 ## See Also
 
-- `.claude/agents/` - Claude agent definitions
+- `codex/agents/` - Codex agent definitions
 - `.gemini/agents/` - Gemini agent definitions
-- `CLAUDE.md` - Claude Code instructions
+- `AGENTS.md` - Codex instructions
 - `GEMINI.md` - Gemini CLI instructions

@@ -26,11 +26,11 @@ WTFB uses a **layered architecture** where:
 
 ## Plugin Structure
 
-A WTFB plugin follows the Claude Code plugin conventions:
+A WTFB plugin follows the Codex plugin conventions:
 
 ```
 wtfb-screenwriting/
-├── .claude-plugin/
+├── .codex-plugin/
 │   └── plugin.json          # Plugin manifest
 ├── agents/                   # Additional agents (optional)
 ├── skills/
@@ -45,7 +45,7 @@ wtfb-screenwriting/
 
 ### Plugin Manifest
 
-`.claude-plugin/plugin.json`:
+`.codex-plugin/plugin.json`:
 
 ```json
 {
@@ -127,7 +127,7 @@ replaces:
 ### Install a Plugin
 
 ```
-/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
+/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
 ```
 
 This updates `.wtfb/project.json`:
@@ -217,13 +217,13 @@ The orchestrator (Session Manager) follows this algorithm:
 ### Step 1: Create Plugin Directory
 
 ```bash
-mkdir -p my-plugin/.claude-plugin
+mkdir -p my-plugin/.codex-plugin
 mkdir -p my-plugin/skills/my-skill
 ```
 
 ### Step 2: Create Plugin Manifest
 
-`my-plugin/.claude-plugin/plugin.json`:
+`my-plugin/.codex-plugin/plugin.json`:
 
 ```json
 {

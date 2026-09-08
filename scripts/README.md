@@ -37,7 +37,7 @@ Both `init-project.sh` and `init-project.ps1` **MUST** implement identical behav
    - **Screenplay**: `{name}.fountain`, `templates/beat-sheet.md`, `templates/character-registry.md`
    - **Novel**: `manuscript/` structure, `world/` structure
    - **Film-production**: `production/`, `assets/`, `crew/` structures
-6. Create symlink: `CLAUDE.md` -> `.wtfb/ai-harness/CLAUDE.md` (or copy as fallback on Windows)
+6. Create symlink: `AGENTS.md` -> `.wtfb/ai-harness/AGENTS.md` (or copy as fallback on Windows)
 7. Update `package.json` name field
 8. Create placeholder directories with `.gitkeep` files
 9. Print next steps with type-specific plugin recommendation
@@ -76,7 +76,7 @@ Both `init-project.sh` and `init-project.ps1` **MUST** implement identical behav
    - **Screenplay**: `[name].fountain` with title page, templates
    - **Novel**: `manuscript/` structure with outline
    - **Film Production**: `production/`, `assets/`, `crew/` directories
-5. Creates `CLAUDE.md` symlink
+5. Creates `AGENTS.md` symlink
 6. Updates `package.json` name
 
 **Output:**
@@ -108,7 +108,7 @@ PowerShell -ExecutionPolicy Bypass -File .\scripts\init-project.ps1
 Identical to `init-project.sh` (see Init Script Responsibilities above).
 
 **Windows-specific behavior:**
-- Attempts to create symlink for `CLAUDE.md`; falls back to file copy if symlink creation fails (requires Developer Mode or admin rights)
+- Attempts to create symlink for `AGENTS.md`; falls back to file copy if symlink creation fails (requires Developer Mode or admin rights)
 - Uses Windows-native paths and PowerShell commands
 - Compatible with PowerShell 5.1+ (Windows built-in) and PowerShell 7+
 

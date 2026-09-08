@@ -51,7 +51,7 @@ Extracted from skill description:
 | Provider | Status |
 |----------|--------|
 | Gemini CLI | ✅ Native |
-| Claude Code | ✅ Equivalent skill in `.claude/skills/` |
+| Codex | ✅ Equivalent skill in `codex/skills/` |
 
 ## Quality Checklist
 

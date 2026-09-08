@@ -97,7 +97,7 @@ jobs:
 
           REQUIRED_FILES=(
             "README.md"
-            "CLAUDE.md"
+            "AGENTS.md"
             ".wtfb/project.json"
           )
 

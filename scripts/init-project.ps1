@@ -94,17 +94,17 @@ $projectJson = @"
     "optional": [
       {
         "name": "wtfb-screenwriting",
-        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting",
+        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting",
         "when": "screenplay"
       },
       {
         "name": "wtfb-novel-writing",
-        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/novel-writing",
+        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/novel-writing",
         "when": "novel"
       },
       {
         "name": "wtfb-film-production",
-        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/film-production",
+        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/film-production",
         "when": "film-production"
       }
     ]
@@ -489,10 +489,10 @@ Your story begins here.
     }
 }
 
-# Create CLAUDE.md symlink (with fallback to copy)
-Write-Host "Creating CLAUDE.md link..."
-$symlinkTarget = ".wtfb/ai-harness/CLAUDE.md"
-$symlinkPath = "CLAUDE.md"
+# Create AGENTS.md symlink (with fallback to copy)
+Write-Host "Creating AGENTS.md link..."
+$symlinkTarget = ".wtfb/ai-harness/AGENTS.md"
+$symlinkPath = "AGENTS.md"
 
 # Remove existing file/link if present
 if (Test-Path $symlinkPath) {
@@ -502,11 +502,11 @@ if (Test-Path $symlinkPath) {
 try {
     # Try to create symlink (requires Developer Mode or admin on Windows)
     New-Item -ItemType SymbolicLink -Path $symlinkPath -Target $symlinkTarget -ErrorAction Stop | Out-Null
-    Write-Green "  Created: CLAUDE.md -> $symlinkTarget (symlink)"
+    Write-Green "  Created: AGENTS.md -> $symlinkTarget (symlink)"
 } catch {
     # Fallback: copy the file instead
     Copy-Item -Path $symlinkTarget -Destination $symlinkPath -Force
-    Write-Yellow "  Created: CLAUDE.md (copy - symlink requires Developer Mode or admin)"
+    Write-Yellow "  Created: AGENTS.md (copy - symlink requires Developer Mode or admin)"
 }
 
 # Update package.json name
@@ -548,13 +548,13 @@ Write-Host ""
 Write-Host "  1. Update marketing/wtfb-marketing.json with your project details"
 Write-Host "  2. Add source materials to sourcematerials/"
 Write-Host "  3. Install dependencies: npm install"
-Write-Host "  4. Start developing with: claude"
+Write-Host "  4. Start developing with: codex"
 Write-Host ""
 
 switch ($ProjectType) {
     "screenplay" {
         Write-Host "Recommended plugin:"
-        Write-Host "  /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting"
+        Write-Host "  /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting"
         Write-Host ""
         Write-Host "Available commands after plugin install:"
         Write-Host "  /start-scene      - Begin scene work"

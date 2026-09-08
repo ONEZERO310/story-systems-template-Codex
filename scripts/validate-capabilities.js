@@ -270,7 +270,7 @@ function main() {
   console.log(`Mode: ${mode}\n`);
 
   // Validate skills
-  const skillsDir = '.claude/skills';
+  const skillsDir = 'codex/skills';
   if (fs.existsSync(skillsDir)) {
     const skillDirs = fs.readdirSync(skillsDir, { withFileTypes: true })
       .filter(d => d.isDirectory())
@@ -303,7 +303,7 @@ function main() {
   console.log();
 
   // Validate commands
-  const commandsDir = '.claude/commands';
+  const commandsDir = 'codex/commands';
   if (fs.existsSync(commandsDir)) {
     const commandFiles = fs.readdirSync(commandsDir)
       .filter(f => f.endsWith('.md') && f.toLowerCase() !== 'readme.md')

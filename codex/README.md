@@ -1,11 +1,11 @@
-# Claude Code Harness
+# Codex Harness
 
-This directory contains the multi-agent harness for Claude Code.
+This directory contains the multi-agent harness for Codex.
 
 ## Structure
 
 ```
-.claude/
+codex/
 ├── agents/          # 11 specialized agent profiles
 ├── commands/        # Slash command definitions
 ├── skills/          # Knowledge base modules (SKILL.md files)
@@ -114,12 +114,12 @@ Acting as the Story Architect, evaluate the three-act structure...
 Acting as the Dialogue Writer, refine the voice for [character]...
 ```
 
-## Integration with Claude Code
+## Integration with Codex
 
-This harness works with Claude Code's plugin system. The root `CLAUDE.md` file loads this harness configuration.
+This harness works with Codex's plugin system. The root `AGENTS.md` file loads this harness configuration.
 
 ## See Also
 
-- [WTFB Claude Marketplace](https://github.com/bybren-llc/cheddarfox-claude-marketplace) for additional plugins
+- [WTFB Codex Marketplace](https://github.com/bybren-llc/cheddarfox-codex-marketplace) for additional plugins
 - `.gemini/` for Gemini CLI harness
 - `AGENTS.md` for team reference

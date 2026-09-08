@@ -8,7 +8,7 @@ This directory contains WTFB-specific configuration that controls how your proje
 .wtfb/
 ├── project.json           # Core project configuration
 └── ai-harness/            # Multi-AI instruction files
-    ├── CLAUDE.md          # Claude Code instructions
+    ├── AGENTS.md          # Codex instructions
     ├── GEMINI.md          # Google Gemini instructions
     ├── CODEX.md           # OpenAI GPT/Codex instructions
     └── schema.json        # Unified capability schema
@@ -94,7 +94,7 @@ These paths CAN be updated from the upstream template. This keeps your tooling c
       {
         "name": "wtfb-screenwriting",
         "version": "1.2.0",
-        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting"
+        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting"
       }
     ],
     "optional": [
@@ -111,7 +111,7 @@ Plugins extend your project with additional agents, commands, and skills.
 
 ## ai-harness Directory
 
-Contains instruction files for multiple AI assistants, enabling your project to work with Claude, Gemini, Codex, and future AI systems.
+Contains instruction files for multiple AI assistants, enabling your project to work with Codex, Gemini, Codex, and future AI systems.
 
 ### Why Multiple AI Files?
 
@@ -154,9 +154,9 @@ The unified capability schema defines what any AI assistant can do with your pro
 }
 ```
 
-### CLAUDE.md
+### AGENTS.md
 
-Primary instruction file for Claude Code. This is symlinked to the root `CLAUDE.md` for easy access.
+Primary instruction file for Codex. This is symlinked to the root `AGENTS.md` for easy access.
 
 Contains:
 - Project overview and type detection
@@ -225,6 +225,6 @@ To protect additional paths from template sync:
 
 1. **Don't delete this directory** - It's essential for WTFB integration
 2. **Keep schema.json in sync** - If you add custom capabilities, update the schema
-3. **Update AI files together** - Changes to CLAUDE.md should be reflected in GEMINI.md and CODEX.md
+3. **Update AI files together** - Changes to AGENTS.md should be reflected in GEMINI.md and CODEX.md
 4. **Use semantic versioning** - Update `version` in project.json when making significant changes
 5. **Document plugin installations** - Keep the `plugins.installed` array current

@@ -64,7 +64,7 @@ Just type a number or describe what you have!
      - `.cspell/project-words.txt` - Custom dictionary
      - `.markdownlint-cli2.yaml` - Lint config
    - Create from templates:
-     - `CLAUDE.md` from `CLAUDE.md.template`
+     - `AGENTS.md` from `AGENTS.md.template`
      - `package.json` from `package.json.template`
      - `cspell.json` from `cspell.json.template`
      - `[title-slug].fountain` from `screenplay.fountain.template`
@@ -82,7 +82,7 @@ Your workspace is ready!
 Created:
   [title].fountain     Your screenplay with title page
   README.md            Project info page (IMDb style)
-  CLAUDE.md            AI assistant instructions
+  AGENTS.md            AI assistant instructions
   package.json         Validation scripts (installed)
 
   .github/             CI/CD and PR templates

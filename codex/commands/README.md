@@ -99,7 +99,7 @@ The YAML frontmatter allows:
 
 ## Usage
 
-Commands are invoked in Claude Code with a forward slash:
+Commands are invoked in Codex with a forward slash:
 
 ```
 /start-scene Opening confrontation in the bar

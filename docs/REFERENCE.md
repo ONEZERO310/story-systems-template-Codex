@@ -8,7 +8,7 @@ Complete reference documentation for the Story Systems Template.
 
 ```
 your-project/
-├── .claude/              # Claude Code harness
+├── codex/              # Codex harness
 │   ├── agents/           # 11 specialized agent profiles
 │   ├── commands/         # 30 slash commands
 │   ├── skills/           # 26 knowledge modules
@@ -249,7 +249,7 @@ FADE OUT.
 
 | Document | Description |
 |----------|-------------|
-| [CLAUDE.md](../CLAUDE.md) | Claude Code instructions |
+| [AGENTS.md](../AGENTS.md) | Codex instructions |
 | [GEMINI.md](../GEMINI.md) | Gemini CLI instructions |
 | [AGENTS.md](../AGENTS.md) | Full agent team reference |
 | [WORKFLOW.md](WORKFLOW.md) | Git workflow guide |

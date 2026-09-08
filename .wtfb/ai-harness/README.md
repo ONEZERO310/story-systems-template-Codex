@@ -1,6 +1,6 @@
 # AI Harness Directory
 
-This directory contains portable AI instruction files that enable your project to work with multiple AI assistants: Claude, Gemini, Codex, and future systems.
+This directory contains portable AI instruction files that enable your project to work with multiple AI assistants: Codex, Gemini, Codex, and future systems.
 
 ## Philosophy
 
@@ -46,9 +46,9 @@ The unified capability schema. This is the **canonical definition** of what AI a
 | `commands` | Available commands by project type |
 | `resources` | File paths for templates, patterns, etc. |
 
-### CLAUDE.md
+### AGENTS.md
 
-Instructions for **Claude Code** (Anthropic's CLI tool).
+Instructions for **Codex CLI** (OpenAI's coding agent).
 
 **What it contains:**
 - Project overview with type detection
@@ -59,11 +59,11 @@ Instructions for **Claude Code** (Anthropic's CLI tool).
 - Validation instructions
 - Plugin installation commands
 
-**Special features for Claude:**
-- Uses Claude Code's `/command` syntax
+**Special features for Codex:**
+- Uses Codex's `/command` syntax
 - References `.wtfb/project.json` for dynamic type detection
-- Integrates with Claude Code plugins
-- Supports Claude's multi-agent system via `/writers-room`
+- Integrates with Codex plugins
+- Supports Codex's multi-agent system via `/writers-room`
 
 ### GEMINI.md
 
@@ -75,7 +75,7 @@ Instructions for **Google Gemini**.
 - Explicit file location documentation
 - Clear output format requirements
 
-**Key differences from Claude:**
+**Key differences from Codex:**
 - Less reliance on tool integration
 - More explicit instruction format
 - Focus on capability boundaries
@@ -99,7 +99,7 @@ Instructions for **OpenAI GPT/Codex** models.
 
 When you use an AI with your project:
 
-1. **Claude Code**: Reads `CLAUDE.md` (symlinked to root) automatically
+1. **Codex**: Reads `AGENTS.md` (symlinked to root) automatically
 2. **Gemini**: Point it to `.wtfb/ai-harness/GEMINI.md`
 3. **GPT/Codex**: Include `.wtfb/ai-harness/CODEX.md` in context
 4. **Other AIs**: Use `schema.json` as a reference
@@ -108,7 +108,7 @@ When you use an AI with your project:
 
 All AIs support the same core commands, but invocation differs:
 
-| Action | Claude | Gemini/Codex |
+| Action | Codex | Gemini/Codex |
 |--------|--------|--------------|
 | Start scene | `/start-scene desc` | `/start-scene desc` |
 | Check format | `/check-format` | `/check-format` |
@@ -154,7 +154,7 @@ The schema defines specialized agents:
 ```
 
 Different AIs use agents differently:
-- **Claude**: Native agent support via plugins and `/writers-room`
+- **Codex**: Native agent support via plugins and `/writers-room`
 - **Gemini/Codex**: Simulated via prompting (ask to "act as Story Architect")
 
 ## Extending for New AIs

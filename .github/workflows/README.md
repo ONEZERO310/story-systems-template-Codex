@@ -28,7 +28,7 @@ This directory contains GitHub Actions workflows for automated CI/CD.
 
 **Required files:**
 - `README.md`
-- `CLAUDE.md`
+- `AGENTS.md`
 - `.wtfb/project.json`
 
 **Required directories:**
