@@ -1,5 +1,3 @@
-# Codex 兼容版 AI Harness
-
 # AGENTS.md
 
 > **Words To Film By™** harness by J. Scott Graham ([@cheddarfox](https://github.com/cheddarfox)) / [Bybren LLC](https://github.com/bybren-llc)

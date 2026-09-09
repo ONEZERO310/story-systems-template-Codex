@@ -94,17 +94,17 @@ $projectJson = @"
     "optional": [
       {
         "name": "wtfb-screenwriting",
-        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting",
+        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting",
         "when": "screenplay"
       },
       {
         "name": "wtfb-novel-writing",
-        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/novel-writing",
+        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/novel-writing",
         "when": "novel"
       },
       {
         "name": "wtfb-film-production",
-        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/film-production",
+        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/film-production",
         "when": "film-production"
       }
     ]
@@ -548,13 +548,13 @@ Write-Host ""
 Write-Host "  1. Update marketing/wtfb-marketing.json with your project details"
 Write-Host "  2. Add source materials to sourcematerials/"
 Write-Host "  3. Install dependencies: npm install"
-Write-Host "  4. Start developing with: codex"
+Write-Host "  4. Start developing with: claude"
 Write-Host ""
 
 switch ($ProjectType) {
     "screenplay" {
         Write-Host "Recommended plugin:"
-        Write-Host "  /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting"
+        Write-Host "  /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting"
         Write-Host ""
         Write-Host "Available commands after plugin install:"
         Write-Host "  /start-scene      - Begin scene work"

@@ -37,7 +37,7 @@ WTFB provides creative writing tools through a tiered access model:
 
 ## Tier 2: Pro (Marketplace Plugins)
 
-**Who**: Paid subscribers with access to the WTFB Codex Marketplace.
+**Who**: Paid subscribers with access to the WTFB Claude Marketplace.
 
 **Access**: Everything in Community tier PLUS marketplace plugins
 
@@ -115,10 +115,10 @@ WTFB provides creative writing tools through a tiered access model:
 ### Community → Pro
 
 1. Subscribe to WTFB Pro via [wordstofilmby.com](https://wordstofilmby.com)
-2. Gain access to the WTFB Codex Marketplace
+2. Gain access to the WTFB Claude Marketplace
 3. Install plugins using:
    ```
-   /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
+   /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
    ```
 4. Configure precedence in `.wtfb/project.json` if needed
 

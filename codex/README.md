@@ -120,6 +120,6 @@ This harness works with Codex's plugin system. The root `AGENTS.md` file loads t
 
 ## See Also
 
-- [WTFB Codex Marketplace](https://github.com/bybren-llc/cheddarfox-codex-marketplace) for additional plugins
+- [WTFB Claude Marketplace](https://github.com/bybren-llc/cheddarfox-claude-marketplace) for additional plugins
 - `.gemini/` for Gemini CLI harness
 - `AGENTS.md` for team reference

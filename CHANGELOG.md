@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Updated README title, marketing config, Jekyll config
   - Updated all user-facing documentation references
   - Updated sync scripts and template relationship docs
-- **Repository references**: Updated marketplace name to `cheddarfox-codex-marketplace`
+- **Repository references**: Updated marketplace name to `cheddarfox-claude-marketplace`
 - **License badge**: Moved to first position in README
 
 ### Fixed

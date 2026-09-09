@@ -88,17 +88,17 @@ cat > .wtfb/project.json << EOF
     "optional": [
       {
         "name": "wtfb-screenwriting",
-        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting",
+        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting",
         "when": "screenplay"
       },
       {
         "name": "wtfb-novel-writing",
-        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/novel-writing",
+        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/novel-writing",
         "when": "novel"
       },
       {
         "name": "wtfb-film-production",
-        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/film-production",
+        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/film-production",
         "when": "film-production"
       }
     ]
@@ -494,13 +494,13 @@ echo ""
 echo "  1. Update marketing/wtfb-marketing.json with your project details"
 echo "  2. Add source materials to sourcematerials/"
 echo "  3. Install dependencies: npm install"
-echo "  4. Start developing with: codex"
+echo "  4. Start developing with: claude"
 echo ""
 
 case $PROJECT_TYPE in
     screenplay)
         echo "Recommended plugin:"
-        echo "  /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting"
+        echo "  /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting"
         echo ""
         echo "Available commands after plugin install:"
         echo "  /start-scene      - Begin scene work"

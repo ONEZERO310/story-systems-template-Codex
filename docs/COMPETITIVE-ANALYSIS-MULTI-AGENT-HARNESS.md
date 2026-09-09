@@ -57,7 +57,7 @@ This analysis compares what we've built (WTFB) against the current market landsc
 | **Export Formats**       | PDF/FDX/HTML      | N/A         | N/A            | Code         | Varies           |
 | **CLI Tools**            | @wtfb/cli         | None        | None           | CLI          | None             |
 | **Open Source**          | Yes               | Yes         | Yes            | Yes          | Mostly No        |
-| **Multi-AI Support**     | Codex/Gemini     | LLM agnostic| LLM agnostic   | LLM agnostic | Proprietary      |
+| **Multi-AI Support**     | Claude/Gemini     | LLM agnostic| LLM agnostic   | LLM agnostic | Proprietary      |
 
 ### Traditional vs AI-Enhanced Software
 
@@ -124,7 +124,7 @@ This analysis compares what we've built (WTFB) against the current market landsc
 ### 7. Full Extensibility (Unique)
 
 - **OSS Integration**: Google Gen AI Toolkit, LangChain, custom tools
-- **Any AI Provider**: Codex, Gemini, OpenAI, local models
+- **Any AI Provider**: Claude, Gemini, OpenAI, local models
 - **Custom Workflows**: Users can build their own agent workflows
 - **Community Marketplace**: Submit tools/services to wtfb-app (free or paid)
 - **Future-Proof**: As new AI tech emerges, community can integrate it
@@ -459,7 +459,7 @@ This analysis compares what we've built (WTFB) against the current market landsc
 1. **Authority System** - No one else has veto/gate powers
 2. **Craft Knowledge** - 24 skill modules, not generic prompts
 3. **Open Source + CLI** - Others are closed or framework-only
-4. **Multi-AI Support** - Works with Codex, Gemini, Codex
+4. **Multi-AI Support** - Works with Claude, Gemini, Codex
 5. **Full Extensibility** - Integrate Google Gen AI Toolkit, LangChain, custom tools
 6. **Community Marketplace** - Contribute workflows/tools (free or paid) to wtfb-app
 7. **Real-Time Collaboration** - VS Code Live Share, not proprietary lock-in
@@ -495,7 +495,7 @@ This analysis compares what we've built (WTFB) against the current market landsc
                     │
 ┌─────────────────────────────────────────┐
 │           LLM Provider Layer            │  ← Execution
-│     (Codex, Gemini, OpenAI, etc.)      │
+│     (Claude, Gemini, OpenAI, etc.)      │
 └─────────────────────────────────────────┘
 ```
 
@@ -557,7 +557,7 @@ This analysis compares what we've built (WTFB) against the current market landsc
 ┌─────────────────────────────────────────────────────────────┐
 │                    LLM Provider Layer                       │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │   Codex    │  │   Gemini    │  │   OpenAI    │         │
+│  │   Claude    │  │   Gemini    │  │   OpenAI    │         │
 │  │   (API)     │  │   (API)     │  │   (API)     │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 └─────────────────────────────────────────────────────────────┘

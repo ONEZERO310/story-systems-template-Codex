@@ -20,7 +20,7 @@ We call it the **WTFB Harness**.
 
 ### The Problem With Today's AI
 
-When you ask ChatGPT or Codex to help write a screenplay, you get... fine results. But here's what's missing:
+When you ask ChatGPT or Claude to help write a screenplay, you get... fine results. But here's what's missing:
 
 - **No structure** — It doesn't know when to check formatting vs. when to focus on story
 - **No specialization** — It's a generalist pretending to be an expert
@@ -142,7 +142,7 @@ Most "AI solutions" are just clever prompts. Ours is an **architecture**:
 
 We're not locked to one AI:
 
-- Works with **Codex** (Anthropic)
+- Works with **Claude** (Anthropic)
 - Works with **Gemini** (Google)
 - Works with **Codex** (OpenAI)
 
@@ -216,7 +216,7 @@ We've documented exactly how to do this:
 
 - **Agent structure**: See [AGENTS.md](../AGENTS.md) for team organization
 - **Harness architecture**: See [codex/](./codex/) and [.gemini/](./.gemini/) directories
-- **Plugin creation**: See the [marketplace repository](https://github.com/bybren-llc/cheddarfox-codex-marketplace)
+- **Plugin creation**: See the [marketplace repository](https://github.com/bybren-llc/cheddarfox-claude-marketplace)
 - **Skills & patterns**: See [patterns/](../patterns/) for examples
 
 ---
@@ -239,7 +239,7 @@ And it's ready for you to use today.
 ## Learn More
 
 - **Try it**: https://github.com/bybren-llc/story-systems-template
-- **See the plugins**: https://github.com/bybren-llc/cheddarfox-codex-marketplace
+- **See the plugins**: https://github.com/bybren-llc/cheddarfox-claude-marketplace
 - **Visit us**: https://wordstofilmby.com
 - **Contact**: dev@wordstofilmby.com
 

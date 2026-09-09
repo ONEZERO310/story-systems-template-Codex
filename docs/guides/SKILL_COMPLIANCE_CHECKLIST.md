@@ -119,9 +119,9 @@ npm run lint:md && npm run lint:spell
 ## References
 
 - [Agent Skills Specification](https://agentskills.io/specification)
-- [Codex Slash Commands](https://code.codex.com/docs/en/slash-commands)
+- [Codex Slash Commands](https://code.claude.com/docs/en/slash-commands)
 - [SKILL_AUTHORING_GUIDE.md](https://github.com/bybren-llc/safe-agentic-workflow/blob/main/docs/guides/SKILL_AUTHORING_GUIDE.md)
 
 ---
 
-*Part of the [WTFB Screenwriting Plugin](https://github.com/bybren-llc/cheddarfox-codex-marketplace) ecosystem.*
+*Part of the [WTFB Screenwriting Plugin](https://github.com/bybren-llc/cheddarfox-claude-marketplace) ecosystem.*

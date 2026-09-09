@@ -36,10 +36,10 @@ brew install git node
 brew install gh
 
 # Install Codex
-# Install Codex CLI using the current official OpenAI instructions.
+npm install -g @anthropic-ai/claude-code
 
 # Authenticate Codex
-codex auth
+claude auth
 ```
 
 **Verify installation:**
@@ -49,7 +49,7 @@ codex auth
 | Git | `git --version` |
 | Node.js 18+ | `node --version` |
 | npm | `npm --version` |
-| Codex | `codex --version` |
+| Codex | `claude --version` |
 | GitHub CLI (optional) | `gh --version` |
 
 ---
@@ -68,10 +68,10 @@ sudo apt install gh
 # or: sudo snap install gh
 
 # Install Codex
-# Install Codex CLI using the current official OpenAI instructions.
+npm install -g @anthropic-ai/claude-code
 
 # Authenticate Codex
-codex auth
+claude auth
 ```
 
 **For other distributions:**
@@ -121,10 +121,10 @@ winget install OpenJS.NodeJS.LTS
 winget install GitHub.cli
 
 # Restart terminal, then install Codex
-# Install Codex CLI using the current official OpenAI instructions.
+npm install -g @anthropic-ai/claude-code
 
 # Authenticate Codex
-codex auth
+claude auth
 ```
 
 **Option B: Manual download**
@@ -139,7 +139,7 @@ codex auth
 git --version
 node --version
 npm --version
-codex --version
+claude --version
 ```
 
 ---
@@ -189,7 +189,7 @@ code .
 **Step 5: Start Codex**
 
 ```bash
-codex
+claude
 ```
 
 **Step 6: Start writing!**
@@ -205,7 +205,7 @@ Your AI team is ready. All 11 agents, 24 skills, and 30 commands work out of the
 For enhanced workflows (showrunner mode, advanced methodology), you can install plugins:
 
 ```
-/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
+/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
 ```
 
 ---
@@ -264,7 +264,7 @@ code .
 **Step 5: Start Codex**
 
 ```powershell
-codex
+claude
 ```
 
 **Step 6: Start writing!**
@@ -280,7 +280,7 @@ Your AI team is ready. All 11 agents, 24 skills, and 30 commands work out of the
 For enhanced workflows (showrunner mode, advanced methodology), you can install plugins:
 
 ```
-/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
+/plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
 ```
 
 ---
@@ -338,7 +338,7 @@ When you run the init script, you'll see:
 
 **Plugin install fails**
 ```bash
-# Update Codex CLI using the current official OpenAI instructions.
+npm update -g @anthropic-ai/claude-code
 ```
 
 ### macOS / Linux / WSL

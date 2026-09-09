@@ -94,7 +94,7 @@ These paths CAN be updated from the upstream template. This keeps your tooling c
       {
         "name": "wtfb-screenwriting",
         "version": "1.2.0",
-        "source": "github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting"
+        "source": "github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting"
       }
     ],
     "optional": [
@@ -111,7 +111,7 @@ Plugins extend your project with additional agents, commands, and skills.
 
 ## ai-harness Directory
 
-Contains instruction files for multiple AI assistants, enabling your project to work with Codex, Gemini, Codex, and future AI systems.
+Contains instruction files for multiple AI assistants, enabling your project to work with Claude, Gemini, Codex, and future AI systems.
 
 ### Why Multiple AI Files?
 

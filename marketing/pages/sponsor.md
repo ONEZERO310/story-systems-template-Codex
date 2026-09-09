@@ -12,7 +12,7 @@ permalink: /sponsor/
 
 ## What Your Support Enables
 
-- **Multi-AI Harness Development** - Codex, Gemini, Codex integration
+- **Multi-AI Harness Development** - Claude, Gemini, Codex integration
 - **11-Agent Team** - Specialized agents for screenwriting, novels, film production
 - **Pattern Libraries** - Story structure, scene, dialogue, character patterns
 - **Template Maintenance** - Keeping the template current and well-documented
@@ -72,7 +72,7 @@ For enterprise sponsorship, custom integrations, or partnership opportunities:
 The WTFB ecosystem includes:
 
 - **[story-systems-template](https://github.com/bybren-llc/story-systems-template)** - Multi-AI harness for creative projects
-- **[cheddarfox-codex-marketplace](https://github.com/bybren-llc/cheddarfox-codex-marketplace)** - Plugin system for Codex
+- **[cheddarfox-claude-marketplace](https://github.com/bybren-llc/cheddarfox-claude-marketplace)** - Plugin system for Codex
 - **[wordstofilmby.com](https://wordstofilmby.com)** - Platform for creative project discovery
 
 Your sponsorship directly supports open-source development that helps writers, filmmakers, and creative professionals work more effectively with AI tools.

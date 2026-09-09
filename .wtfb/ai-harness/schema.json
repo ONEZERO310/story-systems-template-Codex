@@ -1,7 +1,7 @@
 {
   "$schema": "https://wtfb.io/schemas/ai-harness.v1.json",
   "version": "1.0.0",
-  "description": "WTFB Multi-AI Harness - Unified capability definitions for Codex, Gemini, and Codex",
+  "description": "WTFB Multi-AI Harness - Unified capability definitions for Claude, Gemini, and Codex",
 
   "projectTypes": {
     "screenplay": {

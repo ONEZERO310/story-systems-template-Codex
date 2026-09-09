@@ -1,0 +1,1 @@
+.wtfb/ai-harness/CODEX.md

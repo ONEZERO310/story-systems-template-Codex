@@ -11,7 +11,7 @@ WTFB provides creative writing tools through two main channels:
 │                         WTFB Ecosystem                          │
 ├─────────────────────────────────────────────────────────────────┤
 │  ┌───────────────────────┐    ┌─────────────────────────────┐  │
-│  │  story-systems-       │    │  cheddarfox-codex-marketplace    │  │
+│  │  story-systems-       │    │  cheddarfox-claude-marketplace    │  │
 │  │  template             │    │                             │  │
 │  │  (OSS Foundation)     │◄───┤  (Premium Enhancements)     │  │
 │  │                       │    │                             │  │
@@ -68,7 +68,7 @@ Plugins enhance or replace template capabilities - they don't duplicate the base
 | **Hooks** | Session management, pre-commit validation, format checking |
 | **Patterns** | Beat sheets, character registries, templates |
 
-### Marketplace (cheddarfox-codex-marketplace)
+### Marketplace (cheddarfox-claude-marketplace)
 
 | Plugin | Capabilities |
 |--------|--------------|
@@ -126,7 +126,7 @@ When you're ready for more:
 1. Subscribe to WTFB Pro
 2. Install desired plugins:
    ```
-   /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-codex-marketplace/plugins/screenwriting
+   /plugin install wtfb-screenwriting@github.com/bybren-llc/cheddarfox-claude-marketplace/plugins/screenwriting
    ```
 3. Configure precedence if needed
 4. Access enhanced capabilities

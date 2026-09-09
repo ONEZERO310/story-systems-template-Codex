@@ -1,6 +1,6 @@
 # AI Harness Directory
 
-This directory contains portable AI instruction files that enable your project to work with multiple AI assistants: Codex, Gemini, Codex, and future systems.
+This directory contains portable AI instruction files that enable your project to work with multiple AI assistants: Claude, Gemini, Codex, and future systems.
 
 ## Philosophy
 
@@ -48,7 +48,7 @@ The unified capability schema. This is the **canonical definition** of what AI a
 
 ### AGENTS.md
 
-Instructions for **Codex CLI** (OpenAI's coding agent).
+Instructions for **Codex** (Anthropic's CLI tool).
 
 **What it contains:**
 - Project overview with type detection
@@ -59,11 +59,11 @@ Instructions for **Codex CLI** (OpenAI's coding agent).
 - Validation instructions
 - Plugin installation commands
 
-**Special features for Codex:**
+**Special features for Claude:**
 - Uses Codex's `/command` syntax
 - References `.wtfb/project.json` for dynamic type detection
 - Integrates with Codex plugins
-- Supports Codex's multi-agent system via `/writers-room`
+- Supports Claude's multi-agent system via `/writers-room`
 
 ### GEMINI.md
 
@@ -75,7 +75,7 @@ Instructions for **Google Gemini**.
 - Explicit file location documentation
 - Clear output format requirements
 
-**Key differences from Codex:**
+**Key differences from Claude:**
 - Less reliance on tool integration
 - More explicit instruction format
 - Focus on capability boundaries
@@ -108,7 +108,7 @@ When you use an AI with your project:
 
 All AIs support the same core commands, but invocation differs:
 
-| Action | Codex | Gemini/Codex |
+| Action | Claude | Gemini/Codex |
 |--------|--------|--------------|
 | Start scene | `/start-scene desc` | `/start-scene desc` |
 | Check format | `/check-format` | `/check-format` |
@@ -154,7 +154,7 @@ The schema defines specialized agents:
 ```
 
 Different AIs use agents differently:
-- **Codex**: Native agent support via plugins and `/writers-room`
+- **Claude**: Native agent support via plugins and `/writers-room`
 - **Gemini/Codex**: Simulated via prompting (ask to "act as Story Architect")
 
 ## Extending for New AIs
